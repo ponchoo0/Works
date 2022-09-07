@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body align="center">
+    <!-- <iframe src="games/tetris.html" frameborder="0"></iframe> -->
+    <header>
+        <p class="contents"><a href="index.html">Morimoto's Works</a></p>
+        <a0 class="contents"><a href="introduction.html">About</a></a0>
+        <a1 class="contents"><a href="programming.html">Programming</a></a1>
+        <a2 class="contents"><a href="ProjectN.html">ProjectN</a></a2>
+    </header>
+    <h1 class="title">Programming works</h1>
+    <div class="border"></div>
+    <h4>1年</h4>
+    <table align="center">
+        <tr>
+            <td>
+                <div class="works">
+                    <a href="info_maru.html"><img src="Image/maru.png" alt="" class="info"></a><p>マルバツゲーム</p>                    
+                </div>
+                <div class="works">
+                    <img src="Image/puyo.png" alt="" class="work"><p>ぷよクリッカー</p>                    
+                </div>
+                <div class="works">
+                    <img src="Image/2048.png" alt="" class="work"><p>2048</p>                  
+                </div>
+            </td>  
+        </tr>
+    </table>
+    <h4>2年</h4>
+    <table align="center">
+        <tr>
+            <td>
+                <div class="works">
+                    <a href="info_osero.html"><img src="Image/osero.png" alt="" class="info"></a><p>オセロ</p>                    
+                </div>
+                <div class="works">
+                    <img src="Image/port.png" alt="" class="work"><p>ポートフォリオ</p>                    
+                </div>
+                <div class="works">
+                    <img src="Image/kyanfesu.png" alt="" class="work"><p>キャンパスフェスティバルHP</p>                    
+                </div>
+            </td>  
+        </tr>
+    </table>
+    <h4>3年</h4>
+    <table align="center">
+        <tr>
+            <td>
+                <div class="works">
+                    <a href="info_tet.html"><img src="Image/tetris.png" alt="" class="info"></a><p>テトリス</p>                    
+                </div>
+                <div class="works">
+                    <img src="Image/port.png" alt="" class="work"><p>ポートフォリオ</p>                    
+                </div>
+            </td>  
+        </tr>
+    </table>
+</body>
+</html>
+<script>
+    
+</script>
+<style>
+    body{
+        margin: 0;
+        position: inherit;
+        text-align: center;
+        background-color: rgb(255, 255, 255);
+        font-family:Verdana, Geneva, Tahoma, sans-serif ;
+        padding-top: 77px;
+    }
+    header{
+        top: 0px;
+        width: 100%;
+        height: 77px;
+        background-color: #201f1e;
+        position: fixed;
+    }
+    header p{
+        margin: 0;
+        left: 60px;
+        position: fixed;
+        color: rgb(255, 255, 255);
+    }
+    a{
+        text-decoration: none;
+        color: white;
+    }
+    a:hover{
+        cursor: pointer;
+    }
+    a0{
+        margin-left: 540px;
+        color: rgb(255, 255, 255);
+    }
+    a1{
+        margin-left: 40px;
+        color: rgb(255, 255, 255);        
+    }
+    a2{
+        margin-left: 40px;
+        color: rgb(255, 255, 255);
+    }
+    .contents{
+        display: inline-block;
+        padding: 30px;
+        font-size: 15px;
+        text-decoration: none;
+    }
+    .title{
+        margin-top: 92px;
+        padding: 8px;
+    }
+    .border{
+        border-bottom: 1px solid #201f1e;
+        width: 70px;
+        margin: 0 auto 50px auto;
+    }
+    .work{
+        width: 300px;
+        height: 300px;
+        margin: 40px 20px 10px 20px;
+        border: #dfdbd6 solid 3px;
+    }
+    .info{
+        width: 300px;
+        height: 300px;
+        margin: 40px 20px 10px 20px;
+        border: #86c7ca solid 3px;
+    }
+    .info:hover{
+        opacity: 0.7;
+    }
+    .works{
+        display: inline-block;
+    }
+    .works p{
+        margin-bottom: 100px;
+    }
+    iframe{
+        height: 100%;
+        width: 80%;
+        top: 0%;
+        left: 10%;
+        border: #dfdbd6;
+        position: fixed;
+        background-color: white;
+        z-index: 10;
+        display: none;
+    }
+</style>

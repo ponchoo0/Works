@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body align="center">
+    <div><img class="WIN" src="Image/WIN.png" alt="" width="70px" height="70px" onclick="question()"></div>
+    <header>
+        <p class="contents"><a href="index.html">Morimoto's Works</a></p>
+        <a0 class="contents"><a href="introduction.html">About</a></a0>
+        <a1 class="contents"><a href="programming.html">Programming</a></a1>
+        <a2 class="contents"><a href="ProjectN.html">ProjectN</a></a2>
+    </header>
+    <h1 class="title">ProjectNとは</h1>
+    <div class="border"></div>
+</body>
+</html>
+<script>
+    function question(){
+        alert("ProjectNについての説明を出す")
+    }
+</script>
+<style>
+    body{
+        margin: 0;
+        position: inherit;
+        text-align: center;
+        background-color: rgb(255, 255, 255);
+        font-family:Verdana, Geneva, Tahoma, sans-serif ;
+        padding-top: 77px;
+    }
+    header{
+        top: 0px;
+        width: 100%;
+        height: 77px;
+        background-color: #201f1e;
+        position: fixed;
+    }
+    header p{
+        margin: 0;
+        left: 60px;
+        position: fixed;
+        color: rgb(255, 255, 255);
+    }
+    a{
+        text-decoration: none;
+        color: white;
+    }
+    a:hover{
+        cursor: pointer;
+    }
+    a0{
+        margin-left: 540px;
+        color: rgb(255, 255, 255);
+    }
+    a1{
+        margin-left: 40px;
+        color: rgb(255, 255, 255);        
+    }
+    a2{
+        margin-left: 40px;
+        color: rgb(255, 255, 255);
+    }
+    .contents{
+        display: inline-block;
+        padding: 30px;
+        font-size: 15px;
+        text-decoration: none;
+    }
+    .title{
+        margin-top: 92px;
+        padding: 8px;
+    }
+    .border{
+        border-bottom: 1px solid #201f1e;
+        width: 70px;
+        margin: 0 auto 50px auto;
+    }
+    .work img{
+        width: 300px;
+        height: 300px;
+        border-radius: 30px;
+        margin: 50px 50px 10px 50px;
+        border: #dfdbd6 solid 1px;
+    }
+    .work video{
+        width: 300px;
+        height: 300px;
+        border-radius: 30px;
+        margin: 50px 50px 10px 50px;
+        border: #dfdbd6 solid 1px;
+    }
+    .work{
+        display: inline-block;
+    }
+    .work p{
+        margin-bottom: 100px;
+    }
+    .WIN{
+        position: fixed;
+        left: 91%;
+        top: 85%;
+        color: #201f1e;
+        height: 100px;
+        width: 100px;
+    }
+    .WIN:hover{
+        cursor: pointer;
+    }
+</style>

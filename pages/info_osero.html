@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body align="center">
+    <header>
+        <p class="contents"><a href="index.html">Morimoto's Works</a></p>
+        <a0 class="contents"><a href="introduction.html">About</a></a0>
+        <a1 class="contents"><a href="programming.html">Programming</a></a1>
+        <a2 class="contents"><a href="ProjectN.html">ProjectN</a></a2>
+    </header>
+    <h1 class="title">作品紹介</h1>
+    <div class="border"></div>
+    <div>
+        <div class="ex">
+            <video src="Video/v_osero.mp4" frameborder="0" muted autoplay loop></video>
+        </div>
+        <div class="ex">
+            <h3>オセロ</h3>
+            <p>ポイント：<br>
+                特定のブロックの色を判定したいのになぜか別のブロックの判定をしていたり、
+                色を変えないはずのブロックが変わっていたりとだいぶ苦戦したが完成させることができた。</p>
+            <p>使用言語：HTML, CSS, Javascript</p>
+            <p>制作期間：5ヶ月</p>
+            <p>制作人数：1人</p>
+            <a href="games/reversi.html">プレイはこちら</a>　　　　<a href="">コードはこちら</a><br><br><br>
+        </div>
+    </div>
+    <a href="programming.html" class="back">作品一覧に戻る</a>
+</body>
+</html>
+<script>
+
+</script>
+<style>
+    body{
+        margin: 0;
+        position: inherit;
+        text-align: center;
+        background-color: rgb(255, 255, 255);
+        font-family:Verdana, Geneva, Tahoma, sans-serif ;
+        padding-top: 77px;
+    }
+    header{
+        top: 0px;
+        width: 100%;
+        height: 77px;
+        background-color: #201f1e;
+        position: fixed;
+    }
+    header p{
+        margin: 0;
+        left: 60px;
+        position: fixed;
+        color: rgb(255, 255, 255);
+    }
+    header a{
+        text-decoration: none;
+        color: white;
+    }
+    header a:hover{
+        cursor: pointer;
+    }
+    a0{
+        margin-left: 540px;
+        color: rgb(255, 255, 255);
+    }
+    a1{
+        margin-left: 40px;
+        color: rgb(255, 255, 255);        
+    }
+    a2{
+        margin-left: 40px;
+        color: rgb(255, 255, 255);
+    }
+    .contents{
+        display: inline-block;
+        padding: 30px;
+        font-size: 15px;
+        text-decoration: none;
+    }
+    .title{
+        margin-top: 92px;
+        padding: 8px;
+    }
+    .border{
+        border-bottom: 1px solid #201f1e;
+        width: 70px;
+        margin: -10px auto 10px auto;
+    }
+    .ex{
+        display: inline-block;
+        text-align: left;
+        width: 500px;
+        margin: 30px 100px 60px 100px;
+    }
+    .ex video{
+        height: 400px;
+        width: 600px;
+        margin: 0;      
+        overflow: none;        
+    }
+    .ex a{
+        color: blue;
+    }
+    .back{
+        text-decoration: none;
+        color: #201f1e;
+    }
+</style>
