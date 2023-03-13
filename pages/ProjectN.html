@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body align="center">
+    <a onclick="c()"><div id="info" class="background"></div></a>
+    <div><img class="WIN" src="Image/WIN.png" alt="" width="70px" height="150px" onclick="question()"></div>
+    <iframe id="info_iframe" src="https://nnn.ed.jp/course/commute/curriculum/pbl/project/" frameborder="0"></iframe>
+    <header>
+        <p class="contents"><a href="index.html">Morimoto's Portfolio</a></p>
+        <a0 class="contents"><a href="introduction.html">About</a></a0>
+        <a1 class="contents"><a href="programming.html">Programming</a></a1>
+        <a2 class="contents"><a href="ProjectN.html">ProjectN</a></a2>
+    </header>
+    <h1 class="title">ProjectN works</h1>
+    <div class="border"></div>
+    <h4>1年</h4>
+    <table align="center">
+        <tr>
+            <td>
+                <div class="works">
+                    <video muted controls src="Video/スライド.mp4" poster="Image/slide.png" width="300px" height="300px"></video>
+                </div>
+                <div class="works">
+                    <img class="work" src="Image/art.png" alt=""><p></p>
+                </div>
+                <div class="works">
+                    <a href="info_nogyo.html"><img class="info" src="" alt="農業モノポリー"></a><p></p>
+                </div>
+            </td>  
+        </tr>
+    </table>
+    <h4>2年</h4>
+    <table align="center">
+        <tr>
+            <td>
+                <div class="works">
+                    <img class="work" src="Image/horensou.png" alt=""><p>ビジネスマナーポスター</p>
+                </div>
+                <div class="works">
+                    <img class="work" src="Image/kougei.png" alt=""><p>伝統的工芸品をプロモーション</p>
+                </div>
+                <div class="works">
+                    <a href="info_koten.html"><img class="info" src="Image/fuji.png" alt=""></a><p>日本の古典を現代的にアレンジする</p>
+                </div>
+            </td>  
+        </tr>
+    </table>
+    <h4>3年</h4>
+    <table align="center">
+        <tr>
+            <td>
+                <div class="works">
+                    <a href="info_oto.html"><img class="info" src="Image/condater.png" alt=""></a><p>私の考える最高の音イノベーション</p>
+                </div>
+                <div class="works">
+                    <a href="info_tourism.html"><img class="info" src="Image/RPG.png" alt=""></a><p>ニューツーリズム</p>
+                </div>
+                <div class="works">
+                    <a href="info_happy.html"><img class="info" src="Image/mac.png" alt=""></a><p>ハッピーセットを作ろう</p>
+                </div>
+                <div class="works">
+                    <a href="info_kome.html"><img class="info" src="Image/kome.png" alt="プロジェクト進行中"></a><p>米プロジェクト</p>
+                </div>
+            </td>  
+        </tr>
+    </table>
+</body>
+</html>
+<script>
+    var info = document.getElementById('info');
+    var info_i = document.getElementById('info_iframe');
+    function question(){
+        info.style.display = 'block';
+        info_i.style.display = 'block';
+    }
+    function c(){
+        info.style.display = 'none';
+        info_i.style.display = 'none';
+    }
+</script>
+<style>
+    body{
+        margin: 0;
+        position: inherit;
+        text-align: center;
+        background-color: rgb(255, 255, 255);
+        font-family:Verdana, Geneva, Tahoma, sans-serif ;
+        padding-top: 77px;
+    }
+    header{
+        top: 0px;
+        width: 100%;
+        height: 77px;
+        background-color: #201f1e;
+        position: fixed;
+    }
+    header p{
+        margin: 0;
+        left: 60px;
+        position: fixed;
+        color: rgb(255, 255, 255);
+    }
+    a{
+        text-decoration: none;
+        color: white;
+    }
+    a:hover{
+        cursor: pointer;
+    }
+    a0{
+        margin-left: 540px;
+        color: rgb(255, 255, 255);
+    }
+    a1{
+        margin-left: 40px;
+        color: rgb(255, 255, 255);        
+    }
+    a2{
+        margin-left: 40px;
+        color: rgb(255, 255, 255);
+    }
+    .contents{
+        display: inline-block;
+        padding: 30px;
+        font-size: 15px;
+        text-decoration: none;
+    }
+    .title{
+        margin-top: 92px;
+        padding: 8px;
+    }
+    .border{
+        border-bottom: 1px solid #201f1e;
+        width: 70px;
+        margin: 0 auto 50px auto;
+    }
+    .works{
+        display: inline-block;
+    }
+    .works p{
+        margin-bottom: 100px;
+    }
+    .work{
+        width: 300px;
+        height: 300px;
+        margin: 40px 20px 10px 20px;
+        border: #dfdbd6 solid 3px;
+    }
+    .info{
+        width: 300px;
+        height: 300px;
+        margin: 40px 20px 10px 20px;
+        border: #86c7ca solid 3px;
+    }
+    .info:hover{
+        opacity: 0.7;
+    }
+    .WIN{
+        position: fixed;
+        left: 91%;
+        top: 80%;
+        color: #201f1e;
+        height: 130px;
+        width: 100px;
+    }
+    .WIN:hover{
+        cursor: pointer;
+    }
+    iframe{
+        height: 70%;
+        width: 80%;
+        top: 15%;
+        left: 10%;
+        border: #dfdbd6;
+        position: fixed;
+        background-color: white;
+        display: none;
+        z-index: 10;
+    }
+    .background{
+        z-index: 5;
+        background-color: #201f1e;
+        position: fixed;
+        display: none;
+        opacity: 0.8;
+        width: 100%;
+        height: 100%;
+    }
+    .background:hover{
+        cursor: pointer;
+    }
+</style>
